@@ -1,0 +1,197 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    background-image: url("../img/background.jpg");
+    font-family:'Open Sans', sans-serif ;
+
+}
+
+.container-main{
+    width: 800px;
+    height: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.container-top,
+.container-top-header,
+.container-top-footer{
+    display: flex;
+}
+
+.container-top{
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: #353130;
+    color: white;
+}
+
+.container-top-description{
+    font-size: 12px;
+}
+.container-top-header,
+.container-top-footer{
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 60%;
+}
+
+.container-top-header{
+    width: 60%;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-top-footer{
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.container-top-header-name,
+.container-top-header-picture{
+    margin: 0 auto;
+}
+
+.mail-to,
+.maps-to{
+    text-decoration: none;
+    color: white;
+}
+
+.img-header{
+    border-radius: 50% 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 4px;
+}
+
+.container-body{
+    display: flex;
+    flex-direction: row;
+}
+.container-body-column-one{
+    width: 40%;
+    margin-left: 5px;
+}
+.container-body-column-two{
+    width: 60%;
+    margin-left: 5px;
+}
+
+.container-body-column-one-competences-one,
+.container-body-column-one-competences-two,
+.container-body-column-one-competences-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 35px;
+    padding-left: 20px;
+    padding-bottom: 1em;
+}
+
+li{
+    text-align: left;
+}
+h4 {
+    text-align: left;
+    border-bottom: 1px solid darkgoldenrod;
+    width: 90%;
+    color:darkgoldenrod;
+}
+h2, h4{
+    letter-spacing: 0.2em;
+}
+
+progress::-webkit-progress-value {
+    background: darkgoldenrod;
+}
+
+progress {
+    background-color: darkgoldenrod;
+}
+progress::-moz-progress-bar {
+    background: darkgoldenrod;
+}
+
+.table-langues{
+    padding-left: 20px;
+    text-align: left;
+}
+
+.french-flag,
+.english-flag{
+    height: 20px;
+    width: 20px;
+}
+
+.img-interets{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.container-body-column-one-interets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 35px;
+    padding-left: 20px;
+}
+
+.container-body-column-one-interets-karate,
+.container-body-column-one-interets-musique,
+.container-body-column-one-interets-lecture,
+.container-body-column-one-interets-voyage,
+.container-body-column-one-interets-cuisine,
+.container-body-column-one-interets-velos,
+.container-body-column-one-interets-techno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding-bottom: 1em;
+}
+
+.table-formation,
+.table-experiences{
+    text-align: left;
+}
+
+.tab-formation-title,
+.tab-job-title{
+    font-size: 14px;
+    width: 120px;
+}
+
+td{
+    vertical-align: top;
+}
+tr > td{
+    padding-bottom: 1em;
+}
+.tab-formation-description,
+.tab-experiences-description {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+.tab-adresse-formation,
+.tab-adresse-experiences{
+    font-size: 12px;
+    color: darkgoldenrod;
+    font-style: italic;
+    text-decoration: none;
+}
